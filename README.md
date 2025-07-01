@@ -1,16 +1,48 @@
-# quiz_app
+# Quizz App
+A Flutter trivia quiz application that tests your knowledge across different categories.
 
-A new Flutter project.
+## Features
+- Multiple quiz categories (Science, History, Sports, Geography, etc.)
+- 30-second timer for each question
+- Real-time scoring and feedback
+- Results screen with detailed review
+- Clean, modern UI with smooth animations
 
-## Getting Started
+## How to Run
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK (3.0 or higher)
+- Android Studio/VS Code
+- Android/iOS emulator or physical device
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. **Clone the repository**
+   ```
+   git clone https://github.com/RABIYASULTANA/quizz-app.git
+   cd quiz_app
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install dependencies**
+   ```
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Run the app**
+   ```
+   flutter run
+   ```
+
+## How It Works
+1. **Select Category**: Choose from 6 different quiz categories
+2. **Answer Questions**: 5 questions per quiz with 30-second timer
+3. **Get Results**: See your score and review all questions
+4. **Play Again**: Retry same category or pick a new one
+
+## API
+Uses the [Open Trivia Database](https://opentdb.com/) for quiz questions and categories.
+
+## Built With
+- Flutter
+- Dart
+- OpenTDB API
+- Google Fonts
