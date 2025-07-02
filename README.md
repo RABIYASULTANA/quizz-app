@@ -6,7 +6,6 @@ A Flutter trivia quiz application that tests your knowledge across different cat
 - 30-second timer for each question
 - Real-time scoring and feedback
 - Results screen with detailed review
-- Clean, modern UI with smooth animations
 
 ## How to Run
 
